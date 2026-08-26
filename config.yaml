@@ -1,0 +1,30 @@
+sampling_rate_hz: 50.0
+preprocessing:
+  accel_lowpass_hz: 5.0
+  gyro_lowpass_hz: 5.0
+  mag_lowpass_hz: 3.0
+  filter_order: 4
+step_detection:
+  min_step_interval_s: 0.30
+  prominence: 0.60
+  height_offset: 0.20
+features:
+  window_s: 2.0
+  hop_s: 0.5
+activity:
+  random_state: 42
+  n_estimators: 250
+  min_samples_leaf: 2
+heading:
+  gyro_units: rad_s
+  complementary_alpha: 0.96
+step_length:
+  weinberg_k: 0.40
+  min_m: 0.25
+  max_m: 1.40
+  neighborhood_s: 0.30
+mode_parameters:
+  normal: {step_scale: 1.00, heading_correction: 1.00}
+  fast: {step_scale: 1.15, heading_correction: 0.95}
+  stairs: {step_scale: 0.75, heading_correction: 1.00}
+  incline: {step_scale: 0.90, heading_correction: 1.00}
