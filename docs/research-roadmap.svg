@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="520" viewBox="0 0 1400 520">
+  <rect width="1400" height="520" rx="30" fill="#f7fbff"/>
+  <text x="700" y="62" text-anchor="middle" font-family="Arial,Helvetica,sans-serif" font-size="36" font-weight="700" fill="#0f2743">Research Build Roadmap</text>
+  <text x="700" y="98" text-anchor="middle" font-family="Arial,Helvetica,sans-serif" font-size="19" fill="#526b84">From baseline PDR to real-world adaptive evaluation</text>
+  <line x1="130" y1="255" x2="1270" y2="255" stroke="#b7c9db" stroke-width="8" stroke-linecap="round"/>
+  <g font-family="Arial,Helvetica,sans-serif">
+    <g transform="translate(160,255)"><circle r="52" fill="#d9efff" stroke="#3182bd" stroke-width="4"/><text y="8" text-anchor="middle" font-size="26" font-weight="700" fill="#164d73">01</text><text y="100" text-anchor="middle" font-size="20" font-weight="700" fill="#19324a">Baseline</text><text y="128" text-anchor="middle" font-size="16" fill="#60758a">Synthetic demo</text></g>
+    <g transform="translate(430,255)"><circle r="52" fill="#e4f8ef" stroke="#39a675" stroke-width="4"/><text y="8" text-anchor="middle" font-size="26" font-weight="700" fill="#206a4d">02</text><text y="100" text-anchor="middle" font-size="20" font-weight="700" fill="#19324a">Real IMU Data</text><text y="128" text-anchor="middle" font-size="16" fill="#60758a">Walking + stairs + incline</text></g>
+    <g transform="translate(700,255)"><circle r="52" fill="#f1e8ff" stroke="#8f67c7" stroke-width="4"/><text y="8" text-anchor="middle" font-size="26" font-weight="700" fill="#634495">03</text><text y="100" text-anchor="middle" font-size="20" font-weight="700" fill="#19324a">Mode Models</text><text y="128" text-anchor="middle" font-size="16" fill="#60758a">RF / SVM / deep models</text></g>
+    <g transform="translate(970,255)"><circle r="52" fill="#fff0d6" stroke="#d6932e" stroke-width="4"/><text y="8" text-anchor="middle" font-size="26" font-weight="700" fill="#9d6514">04</text><text y="100" text-anchor="middle" font-size="20" font-weight="700" fill="#19324a">Adaptive PDR</text><text y="128" text-anchor="middle" font-size="16" fill="#60758a">Mode-specific tuning</text></g>
+    <g transform="translate(1240,255)"><circle r="52" fill="#ffe5e8" stroke="#cf6571" stroke-width="4"/><text y="8" text-anchor="middle" font-size="26" font-weight="700" fill="#913944">05</text><text y="100" text-anchor="middle" font-size="20" font-weight="700" fill="#19324a">Evaluation</text><text y="128" text-anchor="middle" font-size="16" fill="#60758a">RMSE • endpoint • latency</text></g>
+  </g>
+  <text x="700" y="460" text-anchor="middle" font-family="Arial,Helvetica,sans-serif" font-size="18" fill="#61778e">Current repository: reproducible research baseline • next milestone: collect real smartphone IMU data</text>
+</svg>
